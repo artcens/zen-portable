@@ -1,9 +1,10 @@
-# Zen Portable
+# Zen Portable // Script
 A fork? copy? or Maintened version of [**@wysh3**'s Zen Portable](https://github.com/wysh3/Zen-Browser-Portable) ... i guess? <br>
 Zen Portable is a lightweight, no-install version of Zen Browser, keeping all data self-contained for portability. thus making it portable! <br>
 
 If you follow the installation perfectly you will not encounter any weird behavior. at least on my testing, it will run normal and stable. <br>
 - Common sense, basic computer knowledge, and basic problem solving skill is required. <br>
+
 I don't want you to bother people for a solution over problem related to this repo on Zen related online forum(like Zen's Discord server or Zen's sub-reddit) and mentioning this repo. <br>
 
 # Disclaimer
@@ -31,17 +32,21 @@ zen-portable/
 - For easy access you can make a shortcut of the script.
 - What not to do after installation is opening the browser not using the provided batch script! (it will break the Zen profile system and create another profile inside your Zen's `%localappdata%` folder that might messed up your existing installation of Zen)
 #### 2. Updating
-- There are multiple ways to update Zen-Portable.
-- But the most stable one in my opinion would be:
+- There are couple of ways to update zen-portable.
+##### a. Replace old files;
+1. Extract the `app` folder inside the archive and replace it in your `zen-portable` directory.
+	- Most stable method and doesn't leave unwanted duplicate.
+##### b. Using Zen Installer.
 1. Download the latest Zen installer (preferably through Zen Browser Github repo).
 2. Run installer until the installer ask for "Custom" or "Standard" installation.
 3. Choose "Custom" installation and point it toward your Zen-Portable app location `zen-portable/app`.
-4. after it complete, DO NOT check "Launch Zen Now" and finish.
+4. after it complete, **DO NOT** check "Launch Zen Now" and finish.
 5. Open Zen-Portable through the script like usual.
+	- This method could create unwanted registry for the app.  
 
 ---
 ## Credit
-All credit goes to [**@wysh3**](https://github.com/wysh3) <br> 
+All credit goes to [**@wysh3**](https://github.com/wysh3) .<br>
 Most of it was borrowed from his archived [repository](https://github.com/wysh3/Zen-Browser-Portable). <br>
 All I did was just updating and continue maintaining it, I'll try to maintaining it as long as the launcher script don't break!
 
